@@ -1007,6 +1007,9 @@ config HIGHATOMIC_PAGEBLOCKS
 
 source "mm/damon/Kconfig"
 
+config KMAP_LOCAL
+	bool
+
 endmenu
 
 source "mm/sec_mm/Kconfig"
